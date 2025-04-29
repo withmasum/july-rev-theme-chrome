@@ -11,11 +11,11 @@
     "alarms"
   ],
   "chrome_url_overrides": {
-    "newtab": "newtab.html"  // Custom newtab.html to handle responsive background
+    "newtab": "newtab.html"  
   },
   "theme": {
     "images": {
-      "theme_ntp_background": "images/wallpaper1.png"  // For fallback
+      "theme_ntp_background": "images/wallpaper1.png" 
     },
     "colors": {
       "frame": [218, 41, 28],
