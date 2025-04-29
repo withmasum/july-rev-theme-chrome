@@ -1,0 +1,61 @@
+{
+  "manifest_version": 3,
+  "name": "July Revolution - Bangladesh",
+  "version": "1.0",
+  "description": "A Chrome theme celebrating the July Revolution of Bangladesh.",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "storage",
+    "alarms"
+  ],
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"  // Custom newtab.html to handle responsive background
+  },
+  "theme": {
+    "images": {
+      "theme_ntp_background": "images/wallpaper1.png"  // For fallback
+    },
+    "colors": {
+      "frame": [218, 41, 28],
+      "frame_inactive": [180, 30, 20],
+      "frame_incognito": [100, 50, 50],
+      "frame_incognito_inactive": [60, 30, 30],
+      "toolbar": [0, 106, 78],
+      "toolbar_text": [255, 255, 255],
+      "tab_text": [255, 255, 255],
+      "tab_background_text": [255, 255, 255],
+      "bookmark_text": [255, 255, 255],
+      "ntp_background": [0, 106, 78],
+      "ntp_text": [255, 255, 255],
+      "ntp_link": [255, 255, 255],
+      "ntp_link_visited": [150, 150, 150],
+      "ntp_section": [0, 106, 78],
+      "ntp_section_text": [255, 255, 255],
+      "ntp_section_link": [255, 255, 255],
+      "ntp_section_link_visited": [150, 150, 150],
+      "button_background": [218, 41, 28],
+      "omnibox_background": [0, 106, 78],
+      "omnibox_text": [255, 255, 255],
+      "omnibox_text_selected": [255, 255, 255],
+      "omnibox_background_hovered": [0, 106, 78],
+      "omnibox_background_selected": [255, 255, 255],
+      "omnibox_border": [0, 106, 78],
+      "omnibox_separator": [0, 106, 78],
+      "toolbar_field": [0, 106, 78],
+      "toolbar_field_text": [255, 255, 255],
+      "toolbar_field_border": [255, 255, 255],
+      "toolbar_field_separator": [255, 255, 255],
+      "toolbar_field_background_hovered": [0, 106, 78],
+      "toolbar_field_text_hovered": [255, 255, 255],
+      "toolbar_field_background_selected": [255, 255, 255],
+      "toolbar_field_text_selected": [0, 106, 78]
+    },
+    "properties": {
+            "ntp_background_alignment": "center|stretch|top|top left|top right|bottom|bottom left|bottom right",
+            "ntp_background_repeat": "no-repeat|repeat|repeat-x|repeat-y",
+            "ntp_logo_alternate": 0
+        }
+  }
+}
