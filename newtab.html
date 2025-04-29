@@ -1,31 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
   <title>July Revolution - Bangladesh</title>
   <style>
+    /* Fullscreen responsive background */
     body {
       margin: 0;
+      padding: 0;
       height: 100vh;
+      background-image: url('images/wallpaper1.png'); /* Path to your wallpaper image */
+      background-position: center;
+      background-size: cover;  /* Ensures the image covers the screen */
+      background-repeat: no-repeat;
       display: flex;
       justify-content: center;
       align-items: center;
-      background-image: url('images/wallpaper1.png');
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
+      color: white; /* Text color for contrast */
+      font-family: Arial, sans-serif;
     }
 
-    /* Responsive adjustments */
-    @media (max-width: 768px) {
-      body {
-        background-image: url('images/wallpaper-small.png'); /* Optional smaller version */
-      }
+    /* Additional styles for any content you want to add in the center */
+    .content {
+      text-align: center;
+    }
+
+    /* Example for custom logo or text styling */
+    .logo {
+      font-size: 36px;
+      font-weight: bold;
     }
   </style>
 </head>
 <body>
-  <!-- Your content here -->
+  <div class="content">
+    <div class="logo">July Revolution - Bangladesh</div>
+    <!-- Add any other content here if needed -->
+  </div>
 </body>
 </html>

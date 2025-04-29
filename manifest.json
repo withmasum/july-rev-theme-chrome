@@ -53,9 +53,9 @@
       "toolbar_field_text_selected": [0, 106, 78]
     },
     "properties": {
-            "ntp_background_alignment": "center|stretch|top|top left|top right|bottom|bottom left|bottom right",
-            "ntp_background_repeat": "no-repeat|repeat|repeat-x|repeat-y",
-            "ntp_logo_alternate": 0
-        }
+      "ntp_background_alignment": "center",
+      "ntp_background_repeat": "no-repeat",
+      "ntp_logo_alternate": 0
+    }
   }
 }
